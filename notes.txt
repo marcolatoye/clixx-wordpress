@@ -1,0 +1,15 @@
+# Cloning a repo and making it yours
+1. Clone the repo
+	git clone https://github.com/Rukayat2022/CliXX_Retail_Repository.git
+2. Remove the initialized git
+	rm .git
+3. Follow the following instructions
+	mv CliXX_Retail_Repository/* .
+	rm -r CliXX_Retail_Repository
+	echo "# clixx-wordpress" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/marcolatoye/clixx-wordpress.git
+	git push -u origin main
